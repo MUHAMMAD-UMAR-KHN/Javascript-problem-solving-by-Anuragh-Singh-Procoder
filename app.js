@@ -109,3 +109,123 @@
 //         console.log(`The ${squares} is the square of ${i} and fulfill the both conditions even and perfect square.`)
 //     }
 // }
+
+
+
+//==================== 😍 Day 2 start =========================
+
+// ===================🤗 Problem 1 ======================
+
+// var a = 2;
+// var b = 30;
+// var c = 20;
+// if (a>b && a>c) {
+//     console.log(`${a} is the greatest.`)
+// }
+// else if(b>a && b>c){
+//     console.log(`${b} is the greatest.`)
+// }
+// else{
+//     `${c} is the greatest.`
+// }
+
+
+// another approach 💡
+
+// var max;
+// function checkNumber(a,b,c){
+// if (a>=b && a>=c) {
+//     max = a;
+//     console.log(`${a} is the greatest.`)
+// }
+// else if(b>=a && b>=c){
+//     max=b;
+//     console.log(`${b} is the greatest.`)
+// }
+// else{
+//     max = c;
+//     `${c} is the greatest.`
+// }
+// return max;
+// }
+// checkNumber(3,1,5);
+// var greatest = max;
+// console.log(greatest);
+
+
+// another approach 💡
+
+// var numbs = [3,1,4];
+// var greatest = numbs[0];
+// for(let i = 0; i < numbs.length; i++){
+//     if(numbs[i] > greatest){
+//         console.log(`${numbs[i]} is the greatest.`)
+//     }
+// }
+
+// another approach 💡
+
+// var max = Math.max(3,2,5,8,1);
+// console.log(max);
+
+// ============== 🤗 Problem 2 =======================
+
+// var check;
+// function numberChecker(a) {
+//     if (a > 0) {
+//         check = a;
+//         console.log(`${check} is positive`)
+//     }
+//     else if (a < 0) {
+//         check = a;
+//         console.log(`${check} is negative`)
+//     }
+//     else {
+//         check = a;
+//         console.log(`${check} is zero`)
+//     }
+// }
+// numberChecker(9);
+
+// ============== 🤗 Problem 3 =======================
+
+// var units = 900;
+// var unitCharges;
+// var bill = 0;
+
+// if (units <= 100) {
+//     unitCharges = 5;
+//     bill = units * unitCharges;
+//     console.log(`Your electricity bill is ${bill}`);
+// }
+// else if (units > 100 && units <= 200) {
+//     unitCharges = 7;
+//     bill = units * unitCharges;
+//     console.log(`Your electricity bill is ${bill}`);
+// }
+// else if (units > 200 && units <= 300) {
+//     unitCharges = 9;
+//     bill = units * unitCharges;
+//     console.log(`Your electricity bill is ${bill}`);
+// }
+// else if (units == 0) {
+//     bill = 0;
+//     console.log("tum ne kunda mara hua hai.");
+// }
+// else {
+//     console.log("tumhara bill bht zyada hai tum office ajao bijli k.");
+// }
+
+// if (bill > 0) console.log(bill);
+
+// ============== 🤗 Problem 4 =======================
+
+// var alp = prompt("Enter the alphabet: ").toLowerCase();
+// if(alp == "a" || alp == "e" || alp == "i" || alp == "o" || alp == "u"){
+//     console.log(alp,"is vowel");
+// }
+// else{
+//     console.log(alp,"is consonant");
+// }
+
+// ================== 😎 Problem 5 =======================
