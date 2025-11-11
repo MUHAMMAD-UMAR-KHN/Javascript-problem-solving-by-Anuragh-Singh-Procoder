@@ -229,3 +229,31 @@
 // }
 
 // ================== 😎 Problem 5 =======================
+
+// leap year problem.
+
+
+// ================== 🤩 Day 3 problem solving ===================
+
+// ================== 😉 Prblem 01 ===================
+
+// var starLine = 3;
+// for (let i = 1; i <= starLine; i++) {
+//     let row = "";
+//     for (let j = 1; j <= i; j++) {
+//         row += "*";
+//     }
+//     console.log(row);
+// }
+
+
+// ================== 😉 Prblem 02 ===================
+
+// var starLine = 3;
+// for (let i = 1; i <= starLine; i++) {
+//     let row = "";
+//     for (let j = 1; j <= i; j++) {
+//         row += "*";
+//     }
+//     console.log(row);
+// }
